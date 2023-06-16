@@ -8,7 +8,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl=document.getElementById("sum-el")
 let cardsEl=document.getElementById("cards-el")
 let player ={
-    name:"zama",
+    name:"Your cash",
     chips:120
 }
 let playerEl=document.getElementById("player-el")
@@ -64,7 +64,7 @@ function renderGame(){
     }
 
     if(hasBlackjack===true){
-        player.chips+=120
+        player.chips+=1200
     }
 
     if(isAlive===false)
